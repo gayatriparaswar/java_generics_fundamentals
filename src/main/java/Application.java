@@ -1,7 +1,9 @@
 import interfaceDemo.GenericInterface;
 import interfaceDemo.GenericInterfaceMultipleParameters;
+import interfaceDemo.TypeBoundGenricInterface;
 import interfaceDemo.impl.GenericInterfaceImpl;
 import interfaceDemo.impl.GenericInterfaceMultipleParametersImpl;
+import interfaceDemo.impl.TypeBoundGenricInterfaceImpl;
 
 /**
  * Small runner to demonstrate usage of generic classes and generic interfaces.
@@ -33,5 +35,9 @@ public class Application {
         // Generic interface with multiple parameters: implementation shows how K and V can be used.
         GenericInterfaceMultipleParameters genericInterfaceMultipleParameters = new GenericInterfaceMultipleParametersImpl("GenericsKey","GenericsValue");
         genericInterfaceMultipleParameters.displayKeyValue("SampleKey","SampleValue");
+
+        // Generic interface with generic class implementation with Type Inbound
+        TypeBoundGenricInterface typeBoundGenricInterface = new TypeBoundGenricInterfaceImpl(100);
+        typeBoundGenricInterface.processNumber(200);
     }
 }
