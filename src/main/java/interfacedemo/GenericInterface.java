@@ -1,4 +1,4 @@
-package interfaceDemo;
+package interfacedemo;
 
 /**
  * GenericInterface defines a single-operation contract that accepts a value of type T.

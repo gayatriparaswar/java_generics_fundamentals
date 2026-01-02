@@ -1,6 +1,6 @@
-package interfaceDemo.impl;
+package interfacedemo.impl;
 
-import interfaceDemo.TypeBoundGenricInterface;
+import interfacedemo.TypeBoundGenricInterface;
 
 /**
  * Implementation of TypeBoundGenricInterface for types that extend Number.

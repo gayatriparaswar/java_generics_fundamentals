@@ -1,4 +1,4 @@
-package interfaceDemo;
+package interfacedemo;
 
 /**
  * TypeBoundGenricInterface restricts its type parameter to Number and subtypes.

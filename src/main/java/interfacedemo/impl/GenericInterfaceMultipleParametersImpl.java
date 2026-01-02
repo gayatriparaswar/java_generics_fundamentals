@@ -1,6 +1,6 @@
-package interfaceDemo.impl;
+package interfacedemo.impl;
 
-import interfaceDemo.GenericInterfaceMultipleParameters;
+import interfacedemo.GenericInterfaceMultipleParameters;
 
 /**
  * Implementation of GenericInterfaceMultipleParameters that simply prints a key/value pair.

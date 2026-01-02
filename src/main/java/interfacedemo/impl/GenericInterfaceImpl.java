@@ -1,6 +1,6 @@
-package interfaceDemo.impl;
+package interfacedemo.impl;
 
-import interfaceDemo.GenericInterface;
+import interfacedemo.GenericInterface;
 
 /**
  * Concrete implementation of GenericInterface for String values.

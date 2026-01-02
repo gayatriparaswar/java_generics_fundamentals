@@ -1,4 +1,4 @@
-package interfaceDemo;
+package interfacedemo;
 
 /**
  * GenericInterfaceMultipleParameters demonstrates an interface that accepts

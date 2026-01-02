@@ -1,5 +1,7 @@
+package genericclassexamples;
+
 /**
- * GenericClass is a simple generic container that holds a single value of type T.
+ * GenericClassExamples.GenericClass is a simple generic container that holds a single value of type T.
  *
  * @param <T> the type of the value stored (e.g., Integer, String, custom types)
  */
@@ -8,7 +10,7 @@ public class GenericClass<T> {
     private T value;
 
     /**
-     * Create a new GenericClass holding the provided value.
+     * Create a new GenericClassExamples.GenericClass holding the provided value.
      *
      * @param value the initial value to store (may be null)
      */

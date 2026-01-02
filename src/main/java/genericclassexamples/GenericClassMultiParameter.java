@@ -1,5 +1,7 @@
+package genericclassexamples;
+
 /**
- * GenericClassMultiParameter demonstrates a generic type with two parameters:
+ * GenericClassExamples.GenericClassMultiParameter demonstrates a generic type with two parameters:
  * K for key and V for value.
  *
  * @param <K> the type used for the key

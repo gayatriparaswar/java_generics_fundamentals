@@ -1,6 +1,6 @@
-package interfaceDemo.impl;
+package interfacedemo.impl;
 
-import interfaceDemo.GenericInterface;
+import interfacedemo.GenericInterface;
 
 /**
  * Generic implementation of GenericInterface that can be parameterized by T.
