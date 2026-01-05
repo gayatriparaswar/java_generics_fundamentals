@@ -2,6 +2,7 @@ import enumwithgenmerics.EnumWithGenericInterfaceImpl;
 import enumwithgenmerics.EnumWithGenericMethod;
 import genericclassexamples.GenericClass;
 import genericclassexamples.GenericClassMultiParameter;
+import genericwithconstructor.GenericConstructorExample;
 import interfacedemo.GenericInterface;
 import interfacedemo.GenericInterfaceMultipleParameters;
 import interfacedemo.TypeBoundGenricInterface;
@@ -71,6 +72,13 @@ public class Application {
 
         int resultMul = EnumWithGenericInterfaceImpl.SUBTRACTION.calculate(6,7);
         System.out.println("Enum with Interface Multiplication Result: " + resultMul);
+
+        //Constructor with generics example single,multiple and with type bound parameter
+        new GenericConstructorExample(10);
+        new GenericConstructorExample(20.0,"Double value");
+        new GenericConstructorExample("Generic constructor with single parameter");
+
+
 
     }
 }
